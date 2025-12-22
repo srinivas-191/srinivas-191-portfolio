@@ -1,0 +1,95 @@
+/* PAGE BACKGROUND */
+.backend-page {
+  min-height: calc(100vh - 72px);
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #020617
+  );
+}
+
+/* GRID LAYOUT */
+.backend-circle-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px; /* controlled, compact spacing */
+  justify-items: center;
+}
+
+/* BIG CIRCLE */
+.backend-circle {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  color: #e5e7eb;
+  padding: 26px;
+  text-align: center;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.35);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  transition: transform 0.3s ease;
+}
+
+.backend-circle:hover {
+  transform: scale(1.04);
+}
+
+/* ICON */
+.circle-icon {
+  font-size: 2rem;
+  color: #38bdf8;
+  margin-bottom: 12px;
+}
+
+/* TEXT */
+.backend-circle h6 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.backend-circle p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* ========================= */
+/* TABLET (< 1200px) */
+/* ========================= */
+@media (max-width: 1200px) {
+  .backend-circle-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+
+  .backend-circle {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* ========================= */
+/* MOBILE (< 768px) */
+/* ========================= */
+@media (max-width: 768px) {
+  .backend-circle-grid {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .backend-circle {
+    width: 280px;
+    height: 280px;
+    padding: 22px;
+  }
+
+  .backend-circle p {
+    font-size: 0.85rem;
+  }
+}

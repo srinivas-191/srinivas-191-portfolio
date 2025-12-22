@@ -1,0 +1,53 @@
+.personal-page {
+  min-height: calc(100vh - 72px);
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #020617
+  );
+}
+
+/* SECTION TITLE */
+.section-title {
+  color: #38bdf8;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* CARD */
+.personal-card {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 26px 22px;
+  text-align: center;
+  color: #e5e7eb;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.personal-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* ICON */
+.personal-icon {
+  font-size: 2rem;
+  color: #38bdf8;
+  margin-bottom: 12px;
+}
+
+/* TEXT */
+.personal-card h6 {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.personal-card p {
+  font-size: 0.85rem;
+  color: #d1d5db;
+  line-height: 1.5;
+}
