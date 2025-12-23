@@ -12,6 +12,12 @@ html, body {
 }
 body {
   padding-top: 97px; /* navbar height */
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #020617
+  );
 }
 /* NAVBAR LINK DEFAULT */
 .nav-link {
