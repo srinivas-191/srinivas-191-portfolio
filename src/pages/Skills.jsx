@@ -20,7 +20,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <section className="skills-page d-flex align-items-center">
+    <section className="skills-page d-flex">
       <div className="container py-5">
 
         {/* PAGE HEADING */}

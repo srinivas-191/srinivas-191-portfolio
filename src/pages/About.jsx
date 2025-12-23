@@ -15,7 +15,7 @@ export default function About() {
   }, []);
 
   return (
-    <section className="about-page d-flex align-items-center">
+    <section className="about-page d-flex">
       <div className="container py-5">
         <div className="row justify-content-center">
 

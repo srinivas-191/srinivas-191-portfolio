@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="home-hero d-flex align-items-center">
+    <section className="home-hero d-flex">
       <div className="container py-5">
         <div className="row align-items-center justify-content-center">
 
@@ -45,7 +45,7 @@ export default function Home() {
           <div className="col-12 col-lg-8 text-center text-lg-start">
 
             <h1 className="fw-bold display-4 mb-2 text-white">
-              Rajoli Srinivas
+              HI I'm Rajoli Srinivas
             </h1>
 
             <h4 className="fw-semibold mb-3 text-info">

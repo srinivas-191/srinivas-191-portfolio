@@ -35,7 +35,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="projects-page d-flex align-items-center">
+    <section className="projects-page d-flex">
       <div className="container py-5">
 
         {/* PAGE HEADER */}

@@ -64,7 +64,7 @@ body {
 
 /* HERO BACKGROUND */
 .home-hero {
-  min-height: 100vh;
+  min-height: calc(100vh - 72px);
   background: linear-gradient(
     135deg,
     #0f172a,
@@ -193,7 +193,7 @@ body {
 
 /* ABOUT PAGE BACKGROUND */
 .about-page {
-  min-height: 100vh;
+  min-height: calc(100vh - 72px);
   background: linear-gradient(
     135deg,
     #0f172a,
@@ -256,7 +256,7 @@ body {
 
 /* SKILLS PAGE BACKGROUND */
 .skills-page {
-  min-height: 100vh;
+  min-height: calc(100vh - 72px);
   background: linear-gradient(
     135deg,
     #0f172a,
@@ -314,7 +314,7 @@ body {
 
 /* PROJECTS PAGE BACKGROUND */
 .projects-page {
-  min-height: 100vh;
+  min-height: calc(100vh - 72px);
   background: linear-gradient(
     135deg,
     #0f172a,
