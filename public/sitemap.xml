@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://your-domain.com/</loc></url>
-  <url><loc>https://your-domain.com/about</loc></url>
-  <url><loc>https://your-domain.com/projects</loc></url>
-  <url><loc>https://your-domain.com/internship</loc></url>
-  <url><loc>https://your-domain.com/contact</loc></url>
+  <url><loc>https://srinivas-191-portfolio.vercel.app/</loc></url>
+  <url><loc>https://srinivas-191-portfolio.vercel.app/about</loc></url>
+  <url><loc>https://srinivas-191-portfolio.vercel.app/skills</loc></url>
+  <url><loc>https://srinivas-191-portfolio.vercel.app/projects</loc></url>
+  <url><loc>https://srinivas-191-portfolio.vercel.app/internship</loc></url>
+  <url><loc>https://srinivas-191-portfolio.vercel.app/backend</loc></url>
+  <url><loc>https://srinivas-191-portfolio.vercel.app/resume</loc></url>
+  <url><loc>https://srinivas-191-portfolio.vercel.app/personal-details</loc></url>
+  <url><loc>https://srinivas-191-portfolio.vercel.app/contact</loc></url>
 </urlset>
