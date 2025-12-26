@@ -51,9 +51,8 @@ const Resume = () => {
           <div className="col text-center" data-aos="fade">
             <a
               href={resumePath}
-              target="_blank"
-              rel="noopener noreferrer"
               className="btn btn-outline-info px-4 py-2"
+              download={"Rajoli_Srinivas_Full Stack_Developer_Resume(1)"}
             >
               <FaDownload className="me-2" />
               Download Resume
@@ -89,7 +88,7 @@ const Resume = () => {
               rel="noopener noreferrer"
               className="btn btn-info btn-lg px-4"
             >
-              Open / Download Resume
+              Preview / Download Resume
             </a>
           </div>
         )}
