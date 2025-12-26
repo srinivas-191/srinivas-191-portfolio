@@ -44,7 +44,7 @@ export default function Navbar() {
               <NavLink
                 to={path}
                 className={({ isActive }) =>
-                  `px-3 py-2 rounded text-decoration-none ${
+                  ` py-2 rounded text-decoration-none ${
                     isActive ? "active-link" : "inactive-link"
                   }`
                 }

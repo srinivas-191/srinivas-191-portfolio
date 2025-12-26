@@ -9,6 +9,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Internship.css"
 
+const certificates = {
+  fullStack: false, // ❌ not available yet
+  dataAnalytics: true,
+  dataScience: true,
+};
+
 const Internship = () => {
   useEffect(() => {
     document.title = "Internship Experience | Rajoli Srinivas";
@@ -41,7 +47,7 @@ const Internship = () => {
         <div className="row g-4 justify-content-center">
 
           {/* INTERNSHIP 1 */}
-          <div className="col-12 col-lg-10" data-aos="zoom-in">
+          <div className="col-12 col-xl-4" data-aos="zoom-in">
             <div className="internship-card">
               <div className="internship-icon">
                 <FaLaptopCode />
@@ -73,11 +79,37 @@ const Internship = () => {
                   and logic refinements.
                 </li>
               </ul>
+              
+                {certificates.fullStack ? (
+                    <div className="certificate-wrapper">
+                      <img
+                        src="/Internships/Full_Stack_Web_Development_Internship.png"
+                        alt="Full Stack Internship Certificate"
+                        loading="lazy"
+                        className="certificate-preview"
+                      />
+
+                      <a
+                        href="/Internships/Full_Stack_Web_Development_Internship.pdf"
+                        download
+                        className="certificate-download"
+                        title="Download Certificate"
+                      >
+                        ⬇
+                      </a>
+                    </div>
+                  ) : (
+                    <div className="h-100 certificate-placeholder">
+                      <span className="certificate-text">
+                        Certificate<br />Coming Soon
+                      </span>
+                    </div>
+                  )}
             </div>
           </div>
 
           {/* INTERNSHIP 2 */}
-          <div className="col-12 col-lg-10" data-aos="zoom-in">
+          <div className="col-12 col-xl-4" data-aos="zoom-in">
             <div className="internship-card">
               <div className="internship-icon">
                 <FaChartBar />
@@ -107,11 +139,38 @@ const Internship = () => {
                   Improved analytical thinking and data interpretation skills.
                 </li>
               </ul>
+              {/* CERTIFICATE PREVIEW */}
+                {certificates.dataAnalytics ? (
+                    <div className="certificate-wrapper">
+                      <img
+                        src="/Internships/Data_Analytics_Certificate.jpeg"
+                        alt="Data Analytics Certificate"
+                        loading="lazy"
+                        className="certificate-preview"
+                      />
+
+                      <a
+                        href="/Internships/Data_Analytics_Certificate.jpeg"
+                        download
+                        className="certificate-download"
+                        title="Download Certificate"
+                      >
+                        ⬇
+                      </a>
+                    </div>
+                  ) : (
+                    <div className="certificate-wrapper certificate-placeholder">
+                      <span className="certificate-text">
+                        Certificate<br />Coming Soon
+                      </span>
+                    </div>
+                  )}
+
             </div>
           </div>
 
           {/* INTERNSHIP 3 */}
-          <div className="col-12 col-lg-10" data-aos="zoom-in">
+          <div className="col-12 col-xl-4" data-aos="zoom-in">
             <div className="internship-card">
               <div className="internship-icon">
                 <FaBrain />
@@ -141,6 +200,33 @@ const Internship = () => {
                   technical topics.
                 </li>
               </ul>
+              {/* CERTIFICATE PREVIEW */}
+              {certificates.dataScience ? (
+                    <div className="certificate-wrapper">
+                      <img
+                        src="/Internships/Data_Science_And_AIML_Internship.png"
+                        alt="Full Stack Internship Certificate"
+                        loading="lazy"
+                        className="certificate-preview"
+                      />
+
+                      <a
+                        href="/Data_Science_and_AIML_Internship_Certificate.pdf"
+                        download
+                        className="certificate-download"
+                        title="Download Certificate"
+                      >
+                        ⬇
+                      </a>
+                    </div>
+                  ) : (
+                    <div className="certificate-wrapper certificate-placeholder">
+                      <span className="certificate-text">
+                        Certificate<br />Coming Soon
+                      </span>
+                    </div>
+                  )}
+
             </div>
           </div>
 
