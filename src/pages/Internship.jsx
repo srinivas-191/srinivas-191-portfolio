@@ -99,7 +99,7 @@ const Internship = () => {
                       </a>
                     </div>
                   ) : (
-                    <div className="h-100 certificate-placeholder">
+                    <div className="certificate-placeholder">
                       <span className="certificate-text">
                         Certificate<br />Coming Soon
                       </span>
@@ -159,7 +159,7 @@ const Internship = () => {
                       </a>
                     </div>
                   ) : (
-                    <div className="certificate-wrapper certificate-placeholder">
+                    <div className="certificate-placeholder">
                       <span className="certificate-text">
                         Certificate<br />Coming Soon
                       </span>
@@ -220,7 +220,7 @@ const Internship = () => {
                       </a>
                     </div>
                   ) : (
-                    <div className="certificate-wrapper certificate-placeholder">
+                    <div className="certificate-placeholder">
                       <span className="certificate-text">
                         Certificate<br />Coming Soon
                       </span>
