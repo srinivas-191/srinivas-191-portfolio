@@ -27,7 +27,7 @@ const Resume = () => {
     return () => window.removeEventListener("resize", checkDevice);
   }, []);
 
-  const resumePath = "/resume/Rajoli_Srinivas_Full Stack_Developer_Resume(1).pdf";
+  const resumePath = "/resume/Rajoli Srinivas Resume.pdf";
 
   return (
     <section className="resume-page">
@@ -52,7 +52,7 @@ const Resume = () => {
             <a
               href={resumePath}
               className="btn btn-outline-info px-4 py-2"
-              download={"Rajoli_Srinivas_Full Stack_Developer_Resume(1)"}
+              download={"Rajoli Srinivas Resume"}
             >
               <FaDownload className="me-2" />
               Download Resume

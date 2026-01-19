@@ -27,7 +27,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowLoader(false);
-    }, 1500); // ⏱️ 3 seconds (change to 10000 for 10 sec)
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, []);
