@@ -35,12 +35,12 @@ const Contact = () => {
 
   try {
     const res = await fetch("/api/sendMail", {
-  method: "POST",                     
-  headers: {
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({ name, email, message }),
-});
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
 
     if (res.ok) {
       alert("Message sent successfully!");
@@ -53,6 +53,7 @@ const Contact = () => {
     alert("Something went wrong.");
   }
 };
+
 
   return (
     <section className="contact-page">
