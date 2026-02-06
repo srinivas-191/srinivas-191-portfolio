@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
   const msg = {
     to: "srinivasrajoli2002@gmail.com", // YOUR EMAIL
-    from: "portfolio@srinivas.dev",     // verified sender in SendGrid
+    from: "srinivasrajoli2002@gmail.com",     // verified sender in SendGrid
     subject: `New Message from ${name}`,
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
