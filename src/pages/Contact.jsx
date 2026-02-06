@@ -35,12 +35,12 @@ const Contact = () => {
 
   try {
     const res = await fetch("/api/sendMail", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
+  method: "POST",                     
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({ name, email, message }),
+});
 
     if (res.ok) {
       alert("Message sent successfully!");
