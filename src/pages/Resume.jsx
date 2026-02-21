@@ -27,7 +27,7 @@ const Resume = () => {
     return () => window.removeEventListener("resize", checkDevice);
   }, []);
 
-  const resumePath = "/resume/RajoliSrinivasResume.pdf";
+  const resumePath = "/resume/RajoliSrinivas_Resume.pdf";
 
   return (
     <section className="resume-page">
