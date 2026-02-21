@@ -211,7 +211,7 @@ const Internship = () => {
                       />
 
                       <a
-                        href="/Data_Science_and_AIML_Internship_Certificate.pdf"
+                        href="/Internships/Data_Science_and_AIML_Internship_Certificate.pdf"
                         download
                         className="certificate-download"
                         title="Download Certificate"
