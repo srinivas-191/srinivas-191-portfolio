@@ -4,17 +4,13 @@
   "framework": "vite",
 
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+
+    { "src": "/Internships/(.*)", "dest": "/Internships/$1" },
+    { "src": "/resume/(.*)", "dest": "/resume/$1" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/(.*\\.(png|jpg|jpeg|pdf|svg|ico|xml|txt))", "dest": "/$1" },
+
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
