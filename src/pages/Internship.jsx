@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 import "./Internship.css"
 
 const certificates = {
-  fullStack: false, // ❌ not available yet
+  fullStack: true, // ❌ not available yet
   dataAnalytics: true,
   dataScience: true,
 };
@@ -83,7 +83,7 @@ const Internship = () => {
                 {certificates.fullStack ? (
                     <div className="certificate-wrapper">
                       <img
-                        src="/Internships/Full_Stack_Web_Development_Internship.png"
+                        src="/Internships/Full_Stack_Web_Development_Internship.jpg"
                         alt="Full Stack Internship Certificate"
                         loading="lazy"
                         className="certificate-preview"

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { FaBolt, FaPlane, FaCalculator } from "react-icons/fa";
+import { FaBolt, FaPlane, FaCalculator, FaWallet } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -32,6 +32,13 @@ export default function Projects() {
       icon: <FaCalculator />,
       tech: "JavaScript • APIs",
     },
+    {
+      title: "Multi-Board Expense Tracker",
+      desc: "Personal finance management app with isolated task boards, pie chart analytics, and trash recovery system.",
+      link: "/projects/expenses",
+      icon: <FaWallet />,
+      tech: "React • React Router • localStorage",
+    },
   ];
 
   return (
@@ -43,7 +50,7 @@ export default function Projects() {
           <div className="col text-center" data-aos="fade-down">
             <h2 className="fw-bold text-white display-6">Projects</h2>
             <p className="text-secondary mt-2">
-              Real-world applications I’ve built and deployed
+              Real-world applications I've built and deployed
             </p>
           </div>
         </div>

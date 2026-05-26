@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 import PageLoader from "./components/PageLoader";
 import "./App.css";
-
+import Expenses from "./pages/Expenses";
 // Lazy imports
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
@@ -14,6 +14,7 @@ const Projects = lazy(() => import("./pages/Projects"));
 const Enlite = lazy(() => import("./pages/Enlite"));
 const Travel = lazy(() => import("./pages/Travel"));
 const Calculator = lazy(() => import("./pages/Calculator"));
+const Expense = lazy(() => import("./pages/Expenses"));
 const Internship = lazy(() => import("./pages/Internship"));
 const Backend = lazy(() => import("./pages/Backend"));
 const Resume = lazy(() => import("./pages/Resume"));
@@ -50,6 +51,7 @@ export default function App() {
           <Route path="/projects/enlite" element={<Enlite />} />
           <Route path="/projects/travel" element={<Travel />} />
           <Route path="/projects/calculator" element={<Calculator />} />
+          <Route path="/projects/expenses" element={<Expense />} />
           <Route path="/internship" element={<Internship />} />
           <Route path="/backend-understanding" element={<Backend />} />
           <Route path="/resume" element={<Resume />} />
