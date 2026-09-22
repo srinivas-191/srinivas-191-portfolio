@@ -58,7 +58,7 @@ const Internship = () => {
               </h5>
               <p className="text-info mb-1">Social Prachar</p>
               <p className="text-secondary small">
-                April 2025 – Present
+                April 2025 – December 2025
               </p>
 
               <ul className="internship-list">
