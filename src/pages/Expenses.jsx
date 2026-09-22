@@ -13,11 +13,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Carousel } from "bootstrap";
 
-import img1 from "../assets/expenses/expenses-1.png";
-import img2 from "../assets/expenses/expenses-2.png";
-import img3 from "../assets/expenses/expenses-3.png";
-import img4 from "../assets/expenses/expenses-4.png";
-import img5 from "../assets/expenses/expenses-5.png";
+import img1 from "../assets/expenses/Expenses-1.png";
+import img2 from "../assets/expenses/Expenses-2.png";
+import img3 from "../assets/expenses/Expenses-3.png";
+import img4 from "../assets/expenses/Expenses-4.png";
+import img5 from "../assets/expenses/Expenses-5.png";
 
 export default function Expenses() {
   useEffect(() => {
